@@ -22,9 +22,9 @@ function arrayAdd(){
         distance = calculateDistance($element, mX, mY);
         $distance.text(distance);  
         if(distance<=50){
-            $("#element").css("opacity","1");
+            $($element).css("opacity","0");
         }else if(distance>50){
-            $("#element").css("opacity","0");
+            $($element).css("opacity","1");
         }
     });
 
