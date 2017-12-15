@@ -51,3 +51,12 @@ font-family: arial;
     border-style: solid;
     transform:rotate(-3deg);
 }
+.continue{
+    font-size: 30px;
+    position:fixed;
+  margin-left:90%;
+    margin-top:90%;
+    
+    
+    
+}
