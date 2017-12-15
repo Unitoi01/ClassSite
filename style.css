@@ -15,8 +15,13 @@ h2 {
 }
 
 .cube {
+<<<<<<< HEAD
     position: fixeds;
    
+=======
+    position: absolute;
+    margin-left:200px;
+>>>>>>> 864a6cfa2f425b34fae815d5c6e323ee51b31f0c
     height: 200px;
     width: 200px;
     -webkit-transition: -webkit-transform 50ms linear;

@@ -8,11 +8,17 @@
 }
 
 #cube {
+<<<<<<< HEAD
   position: absolute;
  left:50%;
     top:50%;
  
   height: 400px;
+=======
+  position: fixed;
+
+  height: 460px;
+>>>>>>> 864a6cfa2f425b34fae815d5c6e323ee51b31f0c
   width: 400px;
   -webkit-transition: -webkit-transform 2s linear;
   -webkit-transform-style: preserve-3d;
@@ -24,16 +30,37 @@
 
 .face {
   position: absolute;
+<<<<<<< HEAD
   height: 360px;
   width: 360px;
   padding: 20px;
   background-color: rgba(50, 50, 50, 0.7);
+=======
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(50, 50, 50);
+>>>>>>> 864a6cfa2f425b34fae815d5c6e323ee51b31f0c
   font-size: 27px;
   line-height: 1em;
   color: #fff;
   border: 1px solid #555;
   border-radius: 3px;
 }
+<<<<<<< HEAD
+=======
+.outer-div{
+    position:fixed;
+     padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    
+}
+>>>>>>> 864a6cfa2f425b34fae815d5c6e323ee51b31f0c
 
 #cube .one  {
   -webkit-transform: rotateX(90deg) translateZ(200px);
